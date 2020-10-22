@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    font-family: monospace;
+}
+.calculator{
+    display: flex;
+    align-items: center;
+    height: 700px;
+    width: 500px;
+    flex-flow: column;
+    background-color: black;
+}
+.row {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    width: 100%;
+    flex: 1;
+}
+.result{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+}
+.button{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+.c-btn{
+    width: 50%;
+}
+.back-btn{
+    width: 25%;
+}
+.divide-btn{
+    background-color: orange;
+    color: white;
+    width: 25%;
+}
+.times-btn{
+    background-color: orange;
+    color: white;
+}
+.minus-btn{
+    background-color: orange;
+    color: white;
+}
+.plus-btn{
+    background-color: orange;
+    color: white;
+}
+.equals-btn{
+    background-color: orange;
+    color: white;
+    width: 25%;
+}
+.zero-btn{
+    width: 75%;
+}
